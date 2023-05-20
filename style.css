@@ -1,0 +1,150 @@
+/* Reset default style */
+
+* {
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting global font styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Style header */
+
+header {
+    background-color: #0B7A75;
+    color: #fff;
+    padding: 50px;
+    text-align:  center; 
+    
+}
+
+header h1 {
+    font-size:  48px;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+header a {
+    background-color:  #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #0B7A75;
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+header a:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+/* Style main section */
+main {
+    margin: 50px 0;
+}
+
+section {
+    margin: 50px;
+}
+
+section h2 {
+    font-size:  36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0;
+}
+
+section li {
+    flex-basis: calc(33.33% - 30px);
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow:  0 3px 6px rgba(0, 0, 0, 0.16);
+    transition:  all 0.3s ease;
+}
+
+section li:hover {
+    transform:  translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.16);
+}
+
+section h3 {
+    font-size:  24px;
+    margin-bottom:  20px;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 2px solid #0B7A75;
+    border-radius: 10px;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+button[type="submit"]{
+  background-color: #0B7A75;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover{
+    background-color: #fff;
+    color:#0B7A75
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
